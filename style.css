@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --mint-green: rgb(177, 255, 254);
+    --roxo: rgb(175, 27, 233);
+    --indigo-dye: rgb(81, 188, 255);
+    --cinza: rgb(146, 149, 151);
+    --picton-blue: rgb(189, 175, 252);
+    --preto: #000000;
+    --fonte-primaria: "Bebas Neue", sans-serif;
+    --fonte-secundaria: "Source Sans 3", sans-serif;
+}
