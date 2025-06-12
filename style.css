@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
 :root{
     --mint-green: rgb(177, 255, 254);
     --roxo: rgb(175, 27, 233);
