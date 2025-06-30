@@ -15,3 +15,25 @@
     --fonte-primaria: "Bebas Neue", sans-serif;
     --fonte-secundaria: "Source Sans 3", sans-serif;
 }
+body{
+    background-color: var(--fonte-primaria);
+    color: var(--roxo);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    min-width: 100vh;
+    font-family: var(--fonte-texto);
+}
+
+.caixaprincipal{
+    background-color: var(--picton-blue);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo{
+    color: var(--mint-green);
+    font-family: var(--indigo-dye);
+}

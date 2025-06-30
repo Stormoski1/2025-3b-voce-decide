@@ -6,7 +6,7 @@ const textoResultado = document.querySelector("texto-Resultado")
 
 const perguntas = [
     {
-        enuciado: "perguntas 1",
+        enuciado: "pergunta 1",
         altenativa: [
             "Alternativa01",
             "Altenartiva02"
@@ -41,4 +41,35 @@ function mostraPergunta() {
     perguntaAtual = perguntas[atual]
     caixaPerguntas.textContent = perguntaAtual.enuciado;
 }
-mostraPergunta();
+mostraPergunta();{
+
+}function mostraraltenativas (){
+    for(const Alternativa of perguntaAtual.altenativa){
+        const BotãoAlternativas = document.createElement("button");
+        BotãoAlternativas.textContent = altenativa;
+        caixaAlternativas.appendChild(BotãoAlternativas)
+    }
+}
+
+function mostraraltenativas(){
+    for (const altenativa of perguntaAtual.altenativa){
+        const BotãoAlternativas = document.createElement("button");
+        BotãoAlternativas.textContent = Alternativa.texto;
+        BotãoAlternativas.addEventListener("click",() => respostaselecionada(function));
+        caixaAlternativas.appendChild(BotãoAlternativas)
+            atual++;
+            mostraPergunta()
+        }
+        
+    }
+
+ function mostraPergunta() {
+    if(atual >= pergunta.length){
+        mostreResultado();
+        return
+    }
+    perguntaAtual = pergunta[atual];
+    caixaPerguntas.textContent = perguntaAtual.enuciado;
+    caixaAlternativas.textContent ="";
+    mostraraltenativas();
+ }
