@@ -1,39 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     font-weight: 400;
 }
 :root{
-    --mint-green: rgb(177, 255, 254);
-    --roxo: rgb(175, 27, 233);
-    --indigo-dye: rgb(81, 188, 255);
-    --cinza: rgb(146, 149, 151);
-    --picton-blue: rgb(189, 175, 252);
-    --preto: #000000;
-    --fonte-primaria: "Bebas Neue", sans-serif;
-    --fonte-secundaria: "Source Sans 3", sans-serif;
+    --vermelho:rgb(100, 144, 202);
+    --azul: rgb(0, 0, 0);
+    --preto: rgb(8, 12, 19);
+    --azulfraco: rgb(16, 14, 114);
+    --fonte-primaria: "Exile", system-ui;
+    --fonte-secundaria: "DM Sans", sans-serif;
 }
 body{
-    background-color: var(--fonte-primaria);
-    color: var(--roxo);
+    background-color: var(--preto);
+    color: var(--preto);
     display: flex;
-    justify-items: center;
     align-items: center;
-    min-width: 100vh;
-    font-family: var(--fonte-texto);
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--fonte-secundaria);
 }
-
-.caixaprincipal{
-    background-color: var(--picton-blue);
+.caixa-principal{
+    background-color: var(--vermelho);
     width: 90%;
-    max-width: 600px;
     text-align: center;
     padding: 20px;
 }
-
 .titulo{
-    color: var(--mint-green);
-    font-family: var(--indigo-dye);
+    font-family: var(--fonte-primaria);
 }
